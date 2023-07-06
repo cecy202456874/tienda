@@ -83,6 +83,8 @@
 <script src="vistas/plugins/datatables-buttons/js/buttons.print.min.js"></script>
 <script src="vistas/plugins/datatables-buttons/js/buttons.colVis.min.js"></script>
 
+echo console.log("Datos json", edit);
+
 <script src="vistas/js/general.js"> </script>
 <script src="vistas/js/clientes.js"> </script>
 </body>

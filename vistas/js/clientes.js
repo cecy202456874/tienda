@@ -5,6 +5,7 @@ $(".btnCargarDatos").click(function(){
     var datos = new FormData();
     datos.append("idClientes", idClientes);
     datos.append("edit", edit);
+  
     console.log("Datos json", edit);
 
     $.ajax({
